@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --width: 100%;
+  --font-family: IRAN;
+  --font-family-number:number;
+}
+html,
+body {
+  direction: rtl;
+}
+@font-face {
+  font-family: number;
+  src: url("../desktop/fonts/number/FarYekan.eot");
+  src: url("../desktop/fonts/number/FarYekan.ttf");
+  src: url("../desktop/fonts/number/FarYekan.woff");
+  src: url("../desktop/fonts/number/FarYekan.woff2");
+}
+@font-face {
+  font-family: IRAN;
+  src: url("../../css/desktop/fonts/IRANYekanWeb-Medium.eot");
+  src: url("../../css/desktop/fonts/IRANYekanWeb-Medium.ttf");
+  src: url("../../css/desktop/fonts/IRANYekanWeb-Medium.woff");
+  src: url("../../css/desktop/fonts/IRANYekanWeb-Medium.woff2");
+}
+.wrapper {
+  width: 100%;
+}

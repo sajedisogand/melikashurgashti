@@ -1,0 +1,23 @@
+.takhfif{
+    width: 100%;
+    height: 168px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.takhfif .takhfif__center{
+    width: 80%;
+    height: inherit;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+
+}
+.takhfif .takhfif__center img{
+    width: 1225px;
+    height: 167px;
+    border-radius: 10px;
+    
+}

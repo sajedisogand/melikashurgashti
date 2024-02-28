@@ -1,0 +1,101 @@
+.amazing2 {
+  width: 100%;
+  height: 143px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.amazing2 .amazing2__center {
+  width: 80%;
+  height: 115px;
+  background-color: #f0f0f1;
+  border-radius: 20px;
+  display: flex;
+}
+.amazing2 .amazing2__center .right {
+  display: flex;
+  flex-flow: row wrap;
+  width: 40%;
+  height: inherit;
+  align-items: center;
+  padding-right: 20px;
+  column-gap: 10px;
+  justify-content: flex-start;
+}
+.amazing2 .amazing2__center .right div {
+  background-color: #39ae00;
+  width: 104px;
+  height: 28px;
+  border-radius: 14px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.amazing2 .amazing2__center .right div h5 {
+  color: white;
+  font-family: var(--font-family-number);
+  font-weight: normal;
+  font-size: 16px;
+}
+.amazing2 .amazing2__center .left {
+  width: 60%;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 10px;
+  padding-left: 20px;
+}
+.amazing2 .amazing2__center .left div {
+  background-color: white;
+  border-radius: 50%;
+  height: 76px;
+  width: 76px;
+  display: flex;
+  flex-flow: ro wrap;
+  justify-content: center;
+  align-items: center;
+}
+.amazing2 .amazing2__center .left div img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+.amazing2 .amazing2__center .left .kala{
+    width: unset;
+    width: 145px;
+    height: 50px;
+border-radius: 25px;
+column-gap: 5px;
+}
+.amazing2 .amazing2__center .right span{
+    width: 250 !important;
+    height: 28px !important;
+}
+.amazing2 .amazing2__center .left .kala h5{
+font-size: 16px;
+color: #39ae00;
+font-family:var(--font-family-number);
+}
+.amazing2 .amazing2__center .left div{
+    position: relative;
+
+}
+.amazing2 .amazing2__center .left div .darsad{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 32px !important;
+    height: 20px !important;
+    background-color:#d32f2f;
+    border-radius: 8px;
+}
+.amazing2 .amazing2__center .left div .darsad h5{
+    font-family: var(--font-family-number);
+    font-size: 13px;
+    color: white;
+    font-weight: normal;
+}

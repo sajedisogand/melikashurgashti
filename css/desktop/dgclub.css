@@ -1,0 +1,71 @@
+.dgclub {
+  width: 100%;
+  height: 88px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.dgclub__center {
+  width: 80%;
+  height: 100%;
+  background-color: #007295;
+  border-radius: 15px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.dgclub .dgclub__center .right {
+  width: 40%;
+  height: 100%;
+  justify-content: flex-start;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.dgclub .dgclub__center .left {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dgclub .dgclub__center .left a {
+  width: 33%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 2px;
+  object-fit: cover;
+}
+.dgclub .dgclub__center .left .left__first {
+  border-radius: 0 10px 10px 0;
+}
+.dgclub .dgclub__center .left .left__end {
+  border-radius: 10px 0 0 10px;
+}
+.dgclub .dgclub__center .left a h5 {
+  font-size: 12px;
+  font-family: IRAN;
+}
+.dgclub .dgclub__center .left a h5 svg {
+  width: 24px !important;
+  height: 24px !important;
+  transform: scale(0.8) !important;
+}
+.dgclub .dgclub__center .left a img {
+  width: 148px;
+  height: inherit;
+}
+
+.dgclub .dgclub__center .left a h5 {
+}

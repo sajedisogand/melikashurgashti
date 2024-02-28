@@ -1,0 +1,130 @@
+.products {
+  width: 100%;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.products .myProducts {
+  width: 100%;
+  height: 85%;
+  background-color: unset;
+}
+.products .products__center {
+  width: 80%;
+  height: auto;
+  border: 10px;
+  border: 1px solid #f0f0f1;
+  border-radius: 8px;
+}
+.swiper-slide .products__item__top,
+.swiper-slide .products__item__center,
+.swiper-slide .products__item__bottom {
+  all: unset;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.product__item {
+  flex-flow: column wrap !important;
+  justify-content: flex-start;
+  background-color: unset;
+}
+.swiper-slide .products__item__top {
+  height: 120px;
+  display: flex;
+  flex-flow: nowrap;
+  align-items: center;
+  column-gap: 10px;
+}
+.swiper-slide .products__item__top img {
+  all: unset;
+  width: 85px;
+  height: 85px;
+}
+.swiper-slide .products__item__top span {
+  font-family: var(--font-family-number);
+  color: #19bfd3;
+  font-weight: bold;
+  font-size: 30px;
+}
+.swiper-slide .products__item__top h5 {
+  font-family: IRAN;
+  opacity: 0.7;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: right;
+}
+.swiper-slide .products__item__center {
+  height: 120px;
+  display: flex;
+  flex-flow: nowrap;
+  align-items: center;
+  column-gap: 10px;
+}
+.swiper-slide .products__item__center img {
+  all: unset;
+  width: 85px;
+  height: 85px;
+}
+.swiper-slide .products__item__center span {
+  font-family: var(--font-family-number);
+  color:#19bfd3;
+  font-weight: bold;
+  font-size: 30px;
+}
+.swiper-slide .products__item__center h5 {
+  font-family: IRAN;
+  opacity: 0.7;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: right;
+}
+.swiper-slide .products__item__bottom {
+  height: 120px;
+  display: flex;
+  flex-flow: nowrap;
+  align-items: center;
+  column-gap: 10px;
+}
+.swiper-slide .products__item__bottom img {
+  all: unset;
+  width: 85px;
+  height: 85px;
+}
+.swiper-slide .products__item__bottom span {
+  font-family: var(--font-family-number);
+  color: #19bfd3;
+  font-weight: bold;
+  font-size: 30px;
+}
+.swiper-slide .products__item__bottom h5 {
+  font-family: IRAN;
+  opacity: 0.7;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: right;
+}
+.products .products__center .top {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.products .products__center .top h5 {
+  font-size: 20px;
+  font-family: IRAN;
+  font-weight: normal;
+}
+.products .products__center .top a {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  font-family: IRAN;
+  color: #19bfd3;
+  font-size: 14px;
+}

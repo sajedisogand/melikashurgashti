@@ -1,0 +1,146 @@
+.amazing {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.amazing .amazing__center {
+  width: 80%;
+  height: inherit;
+  background-color: crimson;
+  border-radius: 20px;
+  padding: 20px 0;
+  border-left: 2px solid crimson;
+}
+.amazing .amazing__center .first__amazing{
+  
+  background-color: crimson;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.amazing .amazing__center .first__amazing .amazing__first{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: center;
+
+
+}
+.amazing .amazing__center .first__amazing .amazing__first .svg__amazing__logo{
+  width: 120px !important;
+  height: 120px !important;
+  transform: scale(0.6);
+}
+.amazing .amazing__center .first__amazing .amazing__first img{
+  width: 125px;
+  height: 125px;
+}
+.amazing .amazing__center .first__amazing .amazing__first .see__all{
+  width: 100%;
+  height: 20px;
+}
+
+.item__amazing .item {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap !important;
+  padding: 10px;
+}
+.item__amazing .item .item__amazing-top {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.item__amazing .item .item__amazing-center {
+  display: block;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.item__amazing .item .item__amazing-center h5 {
+  all: unset;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  font-size: 14px;
+  font-family: var(--font-family-number);
+  color: #3f4064;
+}
+.item__amazing .item .item__amazing-center span {
+  font-family: var(--font-family-number);
+  font-size: 13px;
+  padding: 0 10px;
+  border-radius: 10px;
+  background-color: #d32f2f;
+  color: whitesmoke;
+}
+.item__amazing .item .item__amazing-bottom {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-family: var(--font-family-number);
+  text-align: left;
+  padding-left: 10px;
+  font-size: 13px;
+  text-decoration: line-through;
+  color: #c0c2c5;
+}
+.item__amazing .item .item__amazing-top img {
+  all: unset;
+  width: 150px;
+  height: 150px;
+}
+.item__amazing div div:nth-of-type(1) img {
+  all: unset;
+  width: 150px;
+  height: 150px;
+}
+.amazing__item__end {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.amazing__item__end a {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  row-gap: 4px;
+}
+.amazing__item__end div {
+  width: 50px;
+  height: 50px;
+  border: 2px solid aqua;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 3px;
+}
+.amazing__item__end a h5 {
+  all: unset;
+  color: #3f4064;
+  font-size: 15px;
+  font-family: IRAN;
+}
+.amazing .amazing__center .border__1 {
+  border-radius: 0 5px 5px 0;
+}
+.amazing .amazing__center .border__2 {
+  border-radius: 5px 0 0 5px;
+}
+
+
+
